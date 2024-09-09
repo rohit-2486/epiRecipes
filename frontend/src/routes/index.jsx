@@ -4,11 +4,11 @@ import Home from "../pages/Home";
 
 const router = createBrowserRouter([
   {
-    path: "/",  // Root route
-    element: <App />,  // App contains Outlet
+    path: "/",   
+    element: <App />,   
     children: [
       {
-        path: "/",  // Or try path: "", this points to Home component
+        path: "/",   
         element: <Home />
       }
     ]

@@ -11,7 +11,7 @@ const Home = () => {
         // Toggle rating filter
         setFilter((prev) => ({
           ...prev,
-          rating: prev.rating ? undefined : 4.3,  // Example rating threshold
+          rating: prev.rating ? undefined : 4.3,  
         }));
         break;
       case 'veg':
@@ -29,7 +29,7 @@ const Home = () => {
 
   return (
     <div>
-      <ButtonList onFilter={handleFilterChange} />
+      {/* <ButtonList onFilter={handleFilterChange} /> */}
       <RecipeContainer filter={filter} />
     </div>
   );
