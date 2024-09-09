@@ -1,5 +1,8 @@
 ﻿# EpiRecipes Search Platform
 
+[Watch the video](https://www.youtube.com/watch?v=tCrf55SHnZY)
+
+
 ## Table of Contents
 1. [Project Setup](#project-setup)
 2. [Technologies Used](#technologies-used)
